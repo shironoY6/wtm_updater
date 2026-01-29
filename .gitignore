@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv*/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# env / secrets
+.env
+.env.local
+.env.*.local
+secrets/
+*.key
+*.pem
+*.cert
+*.db
+activate
+.pre-commit-config.yaml
+
+# deployment scripts
+kill.sh
+psit.sh
+restart.sh
+
+# remove from the repo for now
+summary.py
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+*.pid
+*.pid.lock
+
+# misc
+dist/
+build/
+logs/
+log/
+*.log
+*.out
